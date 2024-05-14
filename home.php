@@ -1,6 +1,15 @@
 <html>
 <head>
 <link href="stili/stilehome.css" rel="stylesheet">
+<script>
+$(document).ready(function(){
+
+$("#aAutori").click(function(){
+  alert("ciao");
+
+});
+});
+</script>
 </head>
 
 <body>
@@ -18,10 +27,10 @@
 <div id="centro">
     <div id="menu">
     <nav>
-        <li class="selezionato"><a href="home.php">HOME</a></li>
-        <li><a href="">AUTORI</a></li> 
-        <li><a href="">OPERE</a></li> 
-        <li><a href="">TEMI</a></li>
+        <li class="selezionato"><button >HOME</button></li>
+        <li><button type="submit" id="aAutori">AUTORI</button></li> 
+        <li><button >OPERE</button></li> 
+        <li><button >TEMI</button></li>
         <div class="dropdown">
   <button class="dropbtn" >SALE</button>
   <div class="dropdown-content">
@@ -46,13 +55,9 @@
 </br><p>
 Che tu sia un appassionato d'arte, uno studioso della storia o semplicemente un curioso viaggiatore, troverai ispirazione e conoscenza nelle profondità del nostro museo. Unisciti a noi e scopri il fascino senza tempo dell'umanità attraverso le meraviglie esposte al Museo CdoubleS.</p>
     </div>
-        <div id="filtro" style="display:none;">
-        <label for="cerca">CERCA: </label><input type="search" name="cerca" value="">
-
-        </div>
-
-        <div id="contenuto" style="	display:none;">
-                CONTENUTO
+        <div id="contenuto" >
+        <iframe id="autori" src="http://localhost:8888/CdoubleS/autori.php" style="display:none;" title="Autori">
+</iframe>
         </div>
     </div>
     

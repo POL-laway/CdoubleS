@@ -1,0 +1,123 @@
+body{
+	background-color:#eba4eb;
+	color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+#contenitore{
+    font-family: "aboreto";
+    width: 100%;
+    
+
+}
+#filtro{
+    dborder: solid rgb(0, 255, 229) 2px;
+    width: 100%;
+    height: 15%;
+    
+    font-size: 15pt;
+    
+    
+}
+#filtro input::-webkit-input-placeholder {
+    color: #F500A2;
+}
+#filtro input{
+    
+    padding: 2px;
+    height: 25px;
+  color: #F500A2;
+  dborder: 1px solid #F500A2;
+}
+#f1,#f2{
+    dborder: solid rgb(0, 255, 229) 2px;
+    display:inline-flex;
+    margin: 5px auto;
+}
+#f1 div,#f2 div{
+    
+    margin: auto 5px;
+}
+#filtro div{
+    color: #ffffff;
+fborder: solid white 1px;
+
+}
+.ricarica a {
+    font-size: 25pt;
+    text-decoration: none;
+
+}
+.cerca button{
+    
+    border: none;
+    font-size: 35pt;
+    background-color: transparent;
+    
+    
+}
+.codice input{
+    width: 45px;
+    color: #F500A2;
+}
+#filtro select{
+    padding: 2px;
+    height: 25px;
+  color: #F500A2;
+  border: 1px solid #F500A2;
+  background-color: #ffffff;
+  
+
+}
+
+
+#contenuto{
+    dborder: solid rgb(242, 0, 255) 2px;
+    width: 100%;
+    height: 85%;
+}
+
+
+#tabella{
+	
+    width:auto;
+	height:auto;
+    
+	border-collapse:collapse;
+    text-align:center;
+    margin:20px auto;
+	
+}
+.title{
+    color: #F500A2;
+    font-size: larger;
+    margin: 10px;
+    
+}
+#tabella .title:hover{
+    color: #F500A2;
+    background-color: #eba4eb;
+}
+.title td{
+    padding: 20px;
+}
+#tabella tr, td {
+    border-bottom: 1px solid #F500A2;
+    padding: 1%;
+  }
+
+#tabella tr:hover {
+    background-color: #F500A2;
+    color: #ffffff;
+    
+    padding: 1%;
+  }
+
+#filtrato{
+    gborder: solid rgb(242, 0, 255) 2px;
+    font-size: 20pt;
+    padding-top: 3%;
+}
+#contenuto{
+    jborder: solid rgb(160, 222, 164) 2px;
+}
